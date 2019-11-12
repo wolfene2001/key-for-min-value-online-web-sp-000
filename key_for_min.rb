@@ -4,7 +4,7 @@
 def key_for_min_value(name_hash)
   min = " "
   name_hash.collect do |name, value|
-    if value == Minimum
+    if value == minimum
       min = name
     end
   end
